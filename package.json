@@ -8,6 +8,10 @@
     "kind": "plugin",
     "displayName": "Hello World"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagar-go/hello_plugin"
+  },
   "dependencies": {},
   "author": {
     "name": "A Strapi developer"
