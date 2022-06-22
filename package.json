@@ -1,9 +1,9 @@
 {
-  "name": "@hello-world",
+  "name": "hello-world",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "hello-world",
+    "name": "@hello-world",
     "description": "Description of Hello World plugin",
     "kind": "plugin",
     "displayName": "Hello World"
