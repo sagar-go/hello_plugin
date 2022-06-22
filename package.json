@@ -1,12 +1,12 @@
 {
-  "name": "hello-world",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
-  "strapi": {
-    "name": "@hello-world",
-    "description": "Description of Hello World plugin",
-    "kind": "plugin",
-    "displayName": "Hello World"
+  "name": "@hello",
+  "version": "1.7.2",
+  "description": "Make your Strapi content SEO friendly.",
+  "strapi": { 
+    "name": "hello",
+    "displayName": "hello",
+    "description": "Make your Strapi content SEO friendly.",
+    "kind": "plugin"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,8 @@
     "@strapi/strapi": "^4.0.0" 
   },
   "author": {
-    "name": "Sagar kumar",
-    "email": "yesitsmesgar@gmail.com",
+    "name": "Strapi Solutions SAS",
+    "email": "hi@strapi.io",
     "url": "https://strapi.io"
   },
   "maintainers": [
