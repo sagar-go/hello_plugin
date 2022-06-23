@@ -3,6 +3,7 @@ import pluginPkg from '../../package.json';
 import pluginId from './pluginId';
 import Initializer from './components/Initializer';
 import PluginIcon from './components/PluginIcon';
+import HomePage from './pages/HomePage/index'
 
 const name = pluginPkg.strapi.name;
 
@@ -16,7 +17,7 @@ export default {
         defaultMessage: name,
       },
       Component: async () => {
-        const component = await import(/* webpackChunkName: "[request]" */ './pages/App');
+        const component = <HomePage/>
 
         return component;
       },
@@ -56,6 +57,7 @@ export default {
       })
     );
 
+    strapi.registerFields({type:'hello', component:HomePage})
     return Promise.resolve(importedTrads);
   },
 };
